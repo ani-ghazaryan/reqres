@@ -1,4 +1,3 @@
-
 package login;
 
 import base.BaseTest;
@@ -20,6 +19,6 @@ public class SearchTests extends BaseTest {
 
         boolean resultExists = resultPage.checkGivenLinkIsInResults(resultText);
         assertTrue(resultExists, "mvideo.ru is missing from search results");
-
     }
+
 }
